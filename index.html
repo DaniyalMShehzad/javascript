@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="app.js"></script>
+</html>
+<script>
+// chapter 1
+// 1
+// alert("Welcome To My Website");
+// 2
+// alert("error!Please write a valid possword");
+// 3
+// alert("Welcome to JS Land..\nHappy Coding!");
+// 4
+// {alert("Welcome to JS land...");
+// alert("Happy Coding!"); }
+// 5
+// alert("Hello.. I can run js through my brouser,s cosule")
+// chapter 2
+// 1
+// var username;
+// 2
+// MyName="Daniyal Shehzad"
+// 3
+// var message = "Hello World";
+// alert(message);
+// 4
+// var name = "Jhone Doe"
+// var age = "15"
+// var course = "Certified Mobile Appplication Development"
+// alert(name);
+// alert(age);
+// alert(course);
+// 5
+// var js = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+// alert(js);
+// 6
+// var email = "daniyalshehzad305@gmail.com"
+// alert("MY email Address is"+ email)
+// 7
+// var book ="A Smarter\nWay To Learn Javascript"
+// alert("I am trying to learn from the book "+book)
+// 8
+// var script ="Yah! I can write HTML Content through JavaScript"
+// document.write(script)
+// 9
+// var script = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
+// alert(script)
+// document.write(script)
+// chapter 3
+// 1
+// var age ="15 Years old"
+// alert("I am "+age)
+// 2
+// var visit = "14 times"
+// alert("You have visited "+visit)
+// 3
+// var birthyear ="2003"
+// document.write("My birth year is"+birthyear)
+// 4
+// var visitorsname = "JonDoe"
+// var producttitle = "tshirt(s)"
+// var quantity = "5"
+// document.write (visitorsname+"ordered"+quantity+producttitle+" on XYZ clothing Store")
+// chapter 4
+// 1
+// var x,y,z;
+// 2
+// legal names
+// var danish, $hi,  variable3, legal_names , _productName;
+// illegal names           
+// var stVariable,  illegalname, fullname, illegal, alsoillegal;
+// 3
+// document.write("<h1>Rules for naming JS variables</h1> <br> Variable names can only contain numbers, $ and _. For example : $my_1stVariable"  + "<br> Variables must begin with a letter, $ or_ .for example: $name, _name or name " + "<br> Variables name are case sensitive"  + "<br> Variables names should not be a js keyword ")
+// chapter 5
+// 1
+// a = 3
+// b =5
+// c = a+b
+// document.write("sum of 3+5 is " , c)
+// 2
+// a = 3
+// b =5
+// c = a-b
+// document.write("sum of 3-5 is " , c)
+// a = 3
+// b =5
+// c = a*b
+// document.write("sum of 3*5 is " , c)
+// a = 3
+// b =5
+// c = a/b
+// document.write("sum of 3/5 is " , c)
+// 3
+// var Variable;
+//      document.write("Value after variable declaration is ",Variable)
+//      Variable = 5;
+//      document.write("<br> Initial value "+ Variable)
+//      Variable ++;
+//      document.write("<br> Value after increament is: "+ Variable);
+//      Variable = Variable + 7;
+//      document.write("<br> Value after addition is "+ Variable);
+//      Variable --;
+//      document.write("<br>  Value after decreament is: "+ Variable);
+//      Variable = Variable%3;
+//      document.write("<br>  The remainder is: "+ Variable);
+// 4
+// var movieticket = 600
+// price = movieticket*5
+// document.write("total cost to buy 5 tickets is " +price )
+// 5
+// document.write("Table of 4 <br>")
+// document.write("<br>4 x 1 =",4*1)
+// document.write("<br>4 x 2 =",4*2)
+// document.write("<br>4 x 3 =",4*3)
+// document.write("<br>4 x 4 =",4*4)
+// document.write("<br>4 x 5 =",4*5)
+// document.write("<br>4 x 6 =",4*6)
+// document.write("<br>4 x 7 =",4*7)
+// document.write("<br>4 x 8 =",4*8)
+// document.write("<br>4 x 9 =",4*9)
+// document.write("<br>4 x 10 =",4*10)
+// 6
+// celsius = 40;
+// fahrenheit = (celsius * 9/5) + 32;
+// tempFahrenhiet = 88;
+// tempCelsius = (tempFahrenhiet-32)*(5/9)
+// document.write(celsius+"℃ is "+fahrenheit+"℉ ");
+// document.write("<br/>", tempFahrenhiet +"℉ is"+tempCelsius+"℃ is ")
+// 7
+// a = 650
+// b = 3
+// c = 100
+// d = 7
+// e = 100
+// totalvalue= (a*b)+(c*d)+e
+// document.write("<h1>Shopping Cart</h1><br>")
+// document.write("<br>Price of item 1 is ",a)
+// document.write("<br>Quantity of item 1 is ",b)
+// document.write("<br>price of item 2 is ",c)
+// document.write("<br>Quantity of item 2 is ",d)
+// document.write("<br>Shipping Charges",e)
+// document.write("<br>Total cost of your order is",totalvalue)
+// 8
+// Marks = 980;
+// Marksobtained = 807;
+// document.write("<h1>Marks Sheet</h1>")
+// document.write("Total Marks : ",Marks)
+// document.write("<br>Marks Obtained: ", Marksobtained)
+// document.write("<br>percentage", (Marksobtained/Marks)*100,"%")
+// 9
+// var dollar = 104.80
+// var riyal=28
+// var Rupee=10*dollar + 25*riyal
+// document.write("<h1>Currency in PKR</h1>")
+// document.write("Total Currency in PKR is :",Rupee)
+// 10
+// var number =  10
+// number((number+5) *10)/2
+// 11
+// currentyear = 2021
+// birthyear = 2003
+// document.write("<h1>Age Calculator</h1>")
+// document.write("<br>Current Year",currentyear)
+// document.write("<br>Birth Year", birthyear)
+// document.write("<br>Your Age : ",currentyear-birthyear)
+// 12
+// pi=3.142
+// radius = 4
+// a = 2 * pi * radius;
+// document.write("The Circumference is " + a)
+// document.write("<br>The area is " + pi*radius*radius)
+// 13
+// var favourite = "lays"
+// age = 17
+// maxage=70
+// maxperday= 5
+// total = (maxage-age)*maxperday
+// document.write("<h1>Lifetime Supply Calculator</h1>")
+// document.write("<br>favourite snack ", favourite)
+// document.write("<br>Currret Age ", age)
+// document.write("<br>Estimated Maximum Age ", maxage)
+// document.write("<br>Amount of Snacks per day ",maxperday)
+// document.write("<br>You will need ",total," ", favourite, " to last you until the ripe old age of ", maxage)
+// chapter 6 to 9
+// 1
+// var a = prompt("Enter the Number")
+// document.write("<br>Result<br>")
+// document.write("<br>the value of a is: ", a)
+// document.write("<br>---------------------")
+// document.write("<br> <br>The value of ++a is ", ++a)
+// document.write("<br>Now the value of a is ", a)
+// document.write("<br> <br>The value of a++ is", a++)
+// document.write("<br>Now the value of a is ", a)
+// document.write("<br> <br>The value of --a is ", --a)
+// document.write("<br>Now the value of a is ", a)
+// document.write("<br> <br>The value of a-- is ", a--)
+// document.write("<br>Now the value of a is  ", a)
+//  2
+// var a = 2,  b = 1
+// var result = --a - --b + ++b + b--;
+// document.write("a is :", a)
+// document.write("b is :", b)
+// document.write("The Result  is :", result)
+// Explain the output at each stage:
+// --a;  ==> a becomes 1 
+// --a - --b; ==> a = 1 and b=0 so 1-0=1
+// --a - --b + ++b; ==> ++b (increament of 1 in b)so b=1 now ==>1-0+1=2
+// --a - --b + ++b + b--;==> now b-- means b will we decreased in next statement but for this statement b =1 still so ==> 1-0+1+1=3
+// 3 
+// name = prompt("Enter Your Name")
+// document.write("Welcome " + name)
+ // 5
+// tablenumber = prompt("Enter Any Number",8);
+// document.write(tablenumber, "x 1 = ",tablenumber*1,"<br>")
+// document.write(tablenumber, "x 2 = ",tablenumber*2,"<br>")
+// document.write(tablenumber, "x 3 = ",tablenumber*3,"<br>")
+// document.write(tablenumber, "x 4 = ",tablenumber*4,"<br>")
+// document.write(tablenumber, "x 5 = ",tablenumber*5,"<br>")
+// document.write(tablenumber, "x 6 = ",tablenumber*6,"<br>")
+// document.write(tablenumber, "x 7 = ",tablenumber*7,"<br>")
+// document.write(tablenumber, "x 8 = ",tablenumber*8,"<br>")
+// document.write(tablenumber, "x 9 = ",tablenumber*9,"<br>")
+// document.write(tablenumber, "x 10 = ",tablenumber*10,"<br>")
+// document.write(tablenumber, "x 11 = ",tablenumber*11,"<br>")
+// document.write(tablenumber, "x 12 = ",tablenumber*12,"<br>")
+// 6
+// subject_1 = prompt("Enter First Subject")
+// subject_2 = prompt("Enter Second Subject")
+// subject_3 = prompt("Enter Third Subject")
+// var total_1, total_2, total_3 = 100;
+// obtained_1 = prompt("Enter Your MArks for first Subject")
+// obtained_2 = prompt("Enter Your MArks for Second Subject")
+// obtained_3 = prompt("Enter Your MArks for Third Subject")
+// chapter 9 10
+// 1
+// city = prompt("Enter Your City Name")
+// if (city == "karachi") {
+//     document.write("Welcome to the city of Lights")
+// }
+// 2
+// gender = prompt("Your Gender please")
+// if (gender == "male") {
+//     document.write(" Good Morning Sir.")
+// }
+// if (gender == "female") {
+//     document.write(" Good Morning Ma'am.")
+// }
+ 3
+// signalColor = prompt("What is the color of the signal")
+// if (signalColor == "red") {
+//     document.write("Must Stop")
+// }
+// if (signalColor == "yellow") {
+//     document.write("Ready to move")
+// }
+// if (signalColor == "green") {
+//     document.write("Move Now")
+// }
+// 4
+// Fuel = prompt("Enter the amount of fuel in litres")
+// if (Fuel < 0.25) {
+//     document.write("Please refill the fuel in your car")
+// }
+// else{
+//     document.write("you have enough fuel")
+// }
+// 5
+// var a = 4
+//if (++a === 5){
+//alert("given condition for variable a is true")
+//}
+// output:given condition for variable a is true
+// var b = 82
+// if (b++ === 83){
+//     alert("given condition for variable b is true")
+// }
+// output:none
+// var c = 12;
+// if (c++ === 13){
+//     alert("condition 1 is true")
+// }
+// if (c === 13){
+//     alert("condition 2 is true")
+// }
+// if (++c < 14){
+//     alert("condition 3 is true")
+// }
+// if(c === 14){
+//     alert("condition 4 is true")
+// }
+// output:condition 2 and 4 are true
+// var materialCost = 20000
+// var laborCost = 2000
+// var totalCost = materialCost + laborCost
+// if (totalCost === laborCost + materialCost){
+//     alert("The cost equals")
+// }
+// output:The cost equals
+// if (true){
+//     alert("True")
+// }
+// if (false){
+//     alert("False")
+// }
+// output: True
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat")
+// }
+//  output: car is smaller than cat
+//6
+// physics = +prompt("Enter Your Physics Marks")
+// chemistry = +prompt("Enter Your chemistry Marks")
+// maths = +prompt("Enter Your maths Marks")
+// total = prompt("enter total marks for three subjects")
+// obtained_total = physics+ chemistry +maths
+// percentage= (obtained_total/total)*100
+// document.write("<h2>Marks Sheet</h2> <br> Total Marks :",total,
+// "<br>Marks Obtained :",obtained_total,"<br>Percentage :",percentage,"%<br>" )
+// if (percentage >=80 ) {
+//     document.write("<br>Grade : A-one")
+//     document.write("<br>Remarks : Excellent")
+// }else if(percentage >=70 && percentage <80){
+//     document.write("<br>Grade : A")
+//     document.write("<br>Remarks : Good")
+// }else if(percentage >=60 && percentage <70){
+//     document.write("<br>Grade : B")
+//     document.write("<br>Remarks : You need to Improve")
+// }else {
+//     document.write("<br>Grade : FAil")
+//     document.write("<br>Remarks : Sorry")
+// }
+// 7
+// number = 5
+// guess = +prompt("Guess the number")
+// close = number+1;
+// if ( guess == number) {
+//         document.write("Bingo! Correct Answer")   
+// }
+// if(guess == close){
+//     document.write("Close enough to the correct answer")   
+// }
+//  8
+// Number= prompt("Enter a number")
+// if (Number%3==0) {
+//     document.write("the number is divisible by 3")
+// }
+// 9
+// number1 = prompt("enter a number to check even or odd")
+// if (number1%2 == 0) {
+//     document.write("The number is EVEN")
+// } else if(number1%2 != 0){
+//     document.write("The number is ODD")
+// }
+ // 10
+// T =prompt("Enter The Temperature")
+// if ( T > 40) {
+//     document.write("It is too hot outside.")
+// }else if (T > 30 && T<=40){
+//     document.write("The Weather today is Normal.")
+// }else if (T > 20 && T<=30){
+//     document.write("Today’s Weather is cool.")
+// } else if (T > 10 && T<=20){
+//     document.write("OMG! Today’s weather is so Cool.")
+// }
+//  11
+// first= +prompt("First number")
+// second = +prompt("Second Number")
+// operation = prompt("Enter the Operation foe example '+' , '-' , '*' , '/' or '%' ")
+// if (operation == "+") {
+//     document.write(first," + ",second," = ",first + second)
+// }
+// if (operation == "-") {
+//     document.write(first, " - ",second, " = ",first - second)
+// }
+// if (operation == "*") {
+//     document.write(first," * ",second," = ",first * second)
+// }
+// if (operation == "/") {
+//     document.write(first," / ",second," = ",first / second)
+// }
+// if (operation == "%") {
+//     document.write(first, " % ",second," = ",first % second)
+// }
+// chapter 12 13
+// 1
+// character = prompt("enter a character ")
+// if(character%1==0) {
+//     document.write("Its a Number")
+// }
+// else if (character == character.ToUpperCase()) {
+//     document.write("Upper Case")
+// }
+// else if (character == character.TolowerCase()) {
+//     document.write("Lower Case")
+// }
+
+// 2
+// x = prompt("fisrt Integer")
+// y = prompt("Second Integer")
+// if (x > y) {
+//     document.write(x)
+// }else if(y > x){
+//     document.write(y)
+// }else{
+//     document.write(" Both are equal")
+// }
+ // 3
+// x = prompt("enter Number")
+// if (x > 0) {
+//     document.write("Positive")
+// }else if (x < 0) {
+//     document.write("Negative")
+// }else{
+//     document.write("zero")
+// }
+// 4
+// Input = prompt("Check for Vowel")
+// if (Input == 'a' || Input == 'e'|| Input == 'i'|| Input == 'o'|| Input == 'u' ) {
+//     document.write("True")
+// }else{
+//     document.write("False")
+// }
+// 5
+// C_P = "dani5678"
+// password = prompt("Enter Your Password")
+// if (password == "") {
+//     document.write("Please enter your password")
+//     if (C_P == password) {
+//         document.write("Correct! The password you entered matches the original password")
+// } else if (C_P != password) {
+//     document.write("Incorrect password")
+// }
+// }
+//  6
+// var greeting
+// var hour = 13
+// if (hour < 18) {
+//     greeting = "Good day"
+// }else
+// {
+//     greeting = "Good evening"
+// }
+//     console.log(greeting)
+ // 7
+// hour = prompt("Enter the time in 24 hour format",1200)
+// if (hour >=00 && hour < 1200) {
+//     document.write("Good Morning")
+// }else if (hour>=1200 && hour < 1700) {
+//     document.write("Good AfterNoon!")
+// }else if (hour >=1700 && hour <2100) {
+//     document.write("Good Evening")
+// }else if (hour >=2100 && hour <= 2359) {
+//     document.write("Good night!")
+// }
+// chapter 14-16
+// 1
+// studentNames = []
+// 2
+// names = new Array()
+// 3
+// myArray = ["Daniyal","M","Shehzad"]
+// 4
+// arr1 = [1,2,3,4,5]
+// 5
+// arr2 = [ true, false ]
+// 6
+// arr3 = ['Daniyal', 18, true, 18.24 ]
+// 7
+// qualifications = ['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M Phil', 'PhD']
+// document.write("<h1>Qualifications<h1> <br>")
+// document.write(qualifications[0], "<br>",qualifications[1], "<br>",qualifications[2], "<br>",qualifications[3], "<br>",qualifications[4], "<br>",qualifications[5], "<br>",qualifications[6], "<br>",qualifications[7], "<br>" )
+// // 8
+// names = ["Michael","John","Tony" ]
+// scores=[320,200,450]
+// total = 500
+// document.write("Score of ",names[0], " is ",scores[0],". Percentage is ",( scores[0]/total)*100,"<br>")
+// document.write("Score of ",names[1], " is ",scores[1],". Percentage is ",( scores[1]/total)*100,"<br>")
+// document.write("Score of ",names[2], " is ",scores[2],". Percentage is ",( scores[2]/total)*100,"<br>")
+// 9
+// colorNames=["Blue","Green","Red","Yellow","Black","Purple"]
+// document.write(colorNames, "<br>")
+// addBeginning = prompt("what color you want to add to the beginning")
+// colorNames.unshift(addBeginning)
+// document.write(colorNames, "<br>")
+// addAtEnd = prompt("what color you want to add to the end")
+// colorNames.push(addAtEnd)
+// document.write(colorNames, "<br>")
+// colorNames.unshift("violet","indigo")
+// document.write(colorNames, "<br>")
+// colorNames.shift()
+// document.write(colorNames, "<br>")
+// i = prompt("At which index You want add a color")
+// color1 =prompt("Enter your new color")
+// colorNames.splice(i,0,color1)
+// document.write(colorNames, "<br>")
+// j=prompt("At which index you want to delete your color")
+// colordeleted = prompt("how many colors you want to delete")
+// colorNames.splice(j,colordeleted)
+// document.write(colorNames, "<br>")
+ // 10
+// scoreArr =[320,230,480,120]
+// document.write("scores are: ",scoreArr,"<br>")
+// scoreArr.sort()
+// document.write("Ordered Score of students :", scoreArr)
+// 11
+// cities = ["Karachi","Lahore","islamabad","quetta","Peshawar"]
+// document.write("Cities List :",cities,"<br>")
+// SelectedCities = cities.slice(2,4)
+// document.write("Selected Cities list: ",SelectedCities)
+//  12
+// var array = ["This "," is "," my "," cat"]
+// document.write("Array: ",array,"<br>")
+// newArray = array.join()
+// document.write("String: ",newArray,"<br>")
+// console.log(array)
+// console.log(newArray)
+ // 13
+// myArr=['keyboard','mouse','printer','monitor']
+// document.write("Devices: ",myArr,"<br>")
+// a= myArr.shift();
+// b= myArr.shift();
+// c= myArr.shift();
+// d= myArr.shift();
+// document.write("Out: ",a,"<br>")
+// document.write("Out: ",b,"<br>")
+// document.write("Out: ",c,"<br>")
+// document.write("Out: " ,d,"<br>")
+// 14
+// myArr=['keyboard','mouse','printer','monitor']
+// document.write("Devices: ",myArr,"<br>")
+// a= myArr.pop()
+// b= myArr.pop()
+// c= myArr.pop()
+// d= myArr.pop()
+// document.write("Out: ",a,"<br>")
+// document.write("Out: ",b,"<br>")
+// document.write("Out: ",c,"<br>")
+// document.write("Out: " ,d,"<br>")
+// 15
+// 15.
+// var manufacturers = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier']
+// document.write(
+// <select name="a" id="">manufacturers[1]</select>,
+// <select name="s" id="">manufacturers[2]</select>,
+// <select name="m" id="">manufacturers[3]</select>,
+// <select name="n" id="">manufacturers[4]</select>,
+// <select name="s" id="">manufacturers[5]</select>,
+// <select name="h" id="">manufacturers[0]</select>
+// )
+// chapter 17-20
+// 1
+// MDArray = [["Danish", 21, "September"],["Daniyal",17,"October"],["sufiyan",14, "May"]]
+// 2
+// array = [[0,1,2,3],[1,0,1,3],[2,1,0,1]]
+// for(var i = 0; i < array.length ; i++){
+//     document.write(array[i],"<br>")
+// }
+// 3
+// for(i =0 ; i<11 ; i++){
+// document.write(i,"<br>")
+// }
+// 4
+// tableNum = prompt("Enter a number to show its Multiplication table")
+// tableLength = prompt("Enter the Table Length")
+// for(var i=1; i <= tableLength; i++){
+// document.write(tableNum, " x " ,i," = ",tableNum*i ,"<br>")
+// }
+// 5 
+// fruit = ["apple", "banana", "mango", "orange", "strawberry"]
+// for (let i = 0; i < fruit.length; i++) {
+//     document.write(fruit[i],"<br>")
+// }
+// for (let i = 0; i < fruit.length; i++) {
+//     document.write("Element at index ",i," is ",fruit[i],"<br>")
+// }
+// 6
+// document.write("Counting: ")
+// for (let index = 0; index < 16; index++) {
+//     document.write(index, " ")
+// }
+// document.write("<br>")
+// document.write("Reverse Counting: ")
+// for (let index = 10; index > 0; index--) {
+//     document.write(index, " ")
+// }
+// document.write("<br>")
+// document.write("Even: ")
+// for (let index = 0; index <=20; index=index+2) {
+//     document.write(index, " ");
+// }
+//     document.write("<br>")
+//     document.write("ODD: ")
+// for (let index = 1; index <  20; index=index+2) {
+//     document.write(index, " ");
+// }
+//         document.write("<br>")
+//         document.write("Series : ")
+// for (let index = 2; index <=20; index=index+2) {
+//     document.write(index, "k ");
+// }
+// // 7 
+// x = ["cake","apple pie", "cookie", "chips", "patties"]
+// order =prompt("Welcome to ABC Bakery. what do you want to order dear")
+// for (let i = 0; i < x.length; i++) {
+// if (order == x[i]) {
+//     document.write(" ", x[i]," is available at index ", i ," at our bakery");   
+// }else{
+//     document.write("We are Sorry ", order , " is not available in our bakery")
+// }
+// }
+// 8
+// Array= [24, 53, 78, 91, 12];
+// var larger= 0;
+// for (i=0; i<=larger;i++){
+// if (Array[i]>larger) {
+//     larger=Array[i];
+//     document.write(larger)
+// }
+// }
+// 9
+// x = [24, 53, 78, 91, 12]
+
+// 10
+// for(var i =0; i<=100; i=i+5){
+//     document.write(i,", ")
+// }
+</script>
+</body>
+</html>
